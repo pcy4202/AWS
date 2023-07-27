@@ -1,0 +1,41 @@
+h1 {
+    font-weight: bold;
+    color: #4ec1fc;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+button[id="save"] {
+    font-weight: bold;
+    color:  #4ec1fc;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+small[id="emojiSize"] {
+    font-size: larger;
+    line-height: 1.2em;
+    margin: 5px 0;
+  }
+input#date {
+    display: inline-block;
+    position: relative;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }

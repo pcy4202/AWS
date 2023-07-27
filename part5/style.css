@@ -1,0 +1,15 @@
+.CashInput{
+    border:none;
+}
+
+body {
+    min-height: 75rem;
+    padding-top: 4.5rem;
+  }
+
+h1 {
+    font-weight: bold;
+    color: #4ec1fc;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
